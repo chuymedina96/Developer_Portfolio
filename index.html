@@ -82,7 +82,7 @@
                       <!-- Text rotation -->
                       <section class="cd-intro">
                           <h4 class="cd-headline clip is-full-width">
-                                <span>I engineer</span> <br />
+                                <span class="engineer">I engineer</span> <br />
                                 <span class="cd-words-wrapper">
                                     <b class="is-visible">cool websites</b>
                                     <b>rails apps</b>
@@ -461,7 +461,9 @@
 
         } );
        $.backstretch("img/main.jpg");
-
+       $(document).ready(function() {
+        $(".engineer").addClass("animated flip");
+      });
     </script>
   </body>
 </html>
